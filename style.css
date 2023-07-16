@@ -1,0 +1,117 @@
+html, body{
+	height:auto;
+}
+* {
+  box-sizing: border-box;
+}
+body{
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0;
+	background-color: #f1f1f1;
+	font-family: 'Playfair Display', serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	border:2px solid black;
+}
+.header{
+	background-color: white;
+	width: 100%;
+}
+.header h2{
+	text-transform: uppercase;
+	text-align: center;
+	padding: 1em 0;
+	font-family: 'Playfair Display';
+	font-weight: 700;
+}
+.main-screen{
+	background-image: url(images/bg_1.jpg);
+	background-size: cover;
+	height: 400px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 3em 0;
+}
+h1,p{
+	color: white;
+	text-align: center;
+	padding: 0 10px;
+}
+button{
+    border-radius: 30px;
+    background: #f3a333;
+    color: #ffffff;
+    cursor: pointer;
+	padding: 1em 2em;
+	border:none;
+}
+button:focus{
+	outline-style: none;
+}
+.dark{
+	background-color: #333;
+	height: 400px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 3em 0;
+}
+span{
+	color: gray;
+	display: inline;
+	padding: 1em;
+	border-bottom:3px solid #f3a333;
+	text-align: center;
+	text-transform: uppercase;
+}
+.dark h2{
+	color: white;
+}
+.services{
+	background-color: white;
+	height: 466px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 3em 0;
+}
+
+.services h2, .services p{
+	color: black;
+}
+.srv{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.srv img{
+	width: 60px;
+	padding: 5px;
+}
+.foods, .recipes{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.video{
+	background-color: #fafafa;
+	text-transform: capitalize;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px 0;
+}
+.video p{
+	color: gray;
+}
